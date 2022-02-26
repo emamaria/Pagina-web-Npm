@@ -1,0 +1,1 @@
+{"version":3,"sources":["scss/base/_main.scss"],"names":[],"mappings":"AAIA,EACE","file":"style.d0414561.css","sourceRoot":"../src","sourcesContent":["// @import \"variables\";\n// @import \"mixins\";\n// @import \"typography\";\n\n* {\n  color: blue;\n}\n"]}

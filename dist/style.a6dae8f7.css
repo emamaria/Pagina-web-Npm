@@ -1,0 +1,153 @@
+/****** Elad Shechter's RESET *******/
+/*** box sizing border-box for all elements ***/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+button {
+  background-color: transparent;
+  color: inherit;
+  border-width: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+figure {
+  margin: 0;
+}
+
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+ol,
+dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+cite {
+  font-style: normal;
+}
+
+fieldset {
+  border-width: 0;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: pink;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin: 5px 0;
+  letter-spacing: 1px;
+}
+
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 6px;
+  z-index: 1;
+  background-color: gray;
+}
+
+.hero__section1 {
+  margin-top: 0px;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero__section1__text {
+  text-align: center;
+}
+.hero__section1__text h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+.hero__section1__text h2 {
+  font-size: 40px;
+}
+.hero__section1__text p {
+  font-size: 18px;
+}
+.hero__section1__buttons {
+  margin-top: 45px;
+}
+.hero__section1__buttons__button {
+  border-radius: 40px;
+  background-color: fuchsia;
+  padding: 10px;
+  font-size: 20px;
+  width: 200px;
+  margin: 25px;
+}
+.hero__section2 {
+  height: 700px;
+  width: 100%;
+  background-color: blue;
+}
+.hero__section3 {
+  height: 700px;
+  width: 100%;
+  background-color: red;
+}
+.hero__section4 {
+  height: 700px;
+  width: 100%;
+  background-color: green;
+}
+
+footer {
+  height: 400px;
+  width: 100%;
+  background-color: gray;
+}
+
+/*# sourceMappingURL=/style.a6dae8f7.css.map */

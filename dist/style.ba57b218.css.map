@@ -1,0 +1,1 @@
+{"version":3,"sources":["scss/style.scss"],"names":[],"mappings":"AAEA,GACE,aAHI,CAIJ,eAAA,CACA","file":"style.ba57b218.css","sourceRoot":"../src","sourcesContent":["$red: #e74c3c;\n\nh1 {\n  color: $red;\n  font-weight: 500;\n  font-size: 56px;\n}\n"]}

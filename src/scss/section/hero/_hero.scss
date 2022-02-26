@@ -1,0 +1,54 @@
+.hero {
+  &__section1 {
+    margin-top: 0px;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__text {
+      text-align: center;
+      h1 {
+        font-size: 80px;
+        font-weight: bold;
+      }
+      h2 {
+        font-size: 40px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+
+    &__buttons {
+      margin-top: 45px;
+      &__button {
+        border-radius: 40px;
+        background-color: fuchsia;
+        padding: 10px;
+        font-size: 20px;
+        width: 200px;
+        margin: 25px;
+      }
+    }
+  }
+
+  &__section2 {
+    height: 700px;
+    width: 100%;
+    background-color: blue;
+  }
+
+  &__section3 {
+    height: 700px;
+    width: 100%;
+    background-color: red;
+  }
+
+  &__section4 {
+    height: 700px;
+    width: 100%;
+    background-color: green;
+  }
+}
