@@ -69,9 +69,6 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-}
-
-body {
   background-color: pink;
 }
 
@@ -91,18 +88,20 @@ h6 {
   position: absolute;
   left: 0;
   right: 0;
-  top: 6px;
+  top: 10px;
   z-index: 1;
   background-color: gray;
+  height: 150px;
 }
 
 .hero__section1 {
   margin-top: 0px;
-  height: 600px;
+  height: 800px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: pink;
 }
 .hero__section1__text {
   text-align: center;
@@ -129,7 +128,7 @@ h6 {
   margin: 25px;
 }
 .hero__section2 {
-  height: 700px;
+  height: 500px;
   width: 100%;
   background-color: blue;
 }
