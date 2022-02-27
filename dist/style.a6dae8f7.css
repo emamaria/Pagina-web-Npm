@@ -103,17 +103,24 @@ h6 {
   align-items: center;
   background-color: pink;
 }
-.hero__section1__text {
+.hero__section1__content {
+  margin-top: 150px;
   text-align: center;
+  background-color: palegreen;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
 }
-.hero__section1__text h1 {
+.hero__section1__content__title {
   font-size: 80px;
   font-weight: bold;
+  background-color: red;
 }
-.hero__section1__text h2 {
+.hero__section1__content__subtitle {
   font-size: 40px;
 }
-.hero__section1__text p {
+.hero__section1__content__text {
   font-size: 18px;
 }
 .hero__section1__buttons {
@@ -131,6 +138,21 @@ h6 {
   height: 500px;
   width: 100%;
   background-color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.hero__section2 h2 {
+  width: 500px;
+  font-size: 40px;
+  margin-top: 100px;
+}
+.hero__section2 p {
+  width: 200px;
+  width: 500px;
+  font-size: 20px;
+  margin-top: 20px;
 }
 .hero__section3 {
   height: 700px;
