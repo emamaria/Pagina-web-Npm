@@ -90,13 +90,23 @@ h6 {
   background-color: gray;
   height: 120px;
 }
+@media screen and (max-width: 768px) {
+  .header {
+    flex-wrap: wrap;
+    height: 200px;
+  }
+}
 .header__search__register {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   background-color: gray;
-  flex-wrap: wrap;
   align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .header__search__register {
+    flex-wrap: wrap;
+  }
 }
 .header__search__register img {
   width: 60px;
@@ -107,6 +117,16 @@ h6 {
 .header__search__register__box input {
   width: 800px;
   height: 40px;
+}
+@media screen and (max-width: 768px) {
+  .header__search__register__box input {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .header__search__register__box input {
+    width: 80px;
+  }
 }
 .header__search__register__box button {
   width: 100px;
@@ -123,6 +143,7 @@ h6 {
 .header__search__register__signin {
   width: 100px;
   height: 40px;
+  font-weight: bold;
 }
 
 .hero {
@@ -146,6 +167,11 @@ h6 {
   flex-direction: column;
   align-items: center;
   width: 700px;
+}
+@media screen and (max-width: 768px) {
+  .hero__section1__content {
+    margin-top: -80px;
+  }
 }
 .hero__section1__content__title {
   font-size: 80px;
@@ -282,7 +308,7 @@ footer {
 }
 
 .navigation {
-  min-width: 100%;
+  width: 100%;
   background-color: red;
   padding: 20px;
   font-weight: bold;

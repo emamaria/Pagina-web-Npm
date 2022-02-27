@@ -4,13 +4,22 @@
   background-color: gray;
   height: 120px;
 
+  @include tablet {
+    flex-wrap: wrap;
+    height: 200px;
+  }
+
   &__search__register {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: gray;
-    flex-wrap: wrap;
     align-items: center;
+
+    @include tablet {
+      flex-wrap: wrap;
+      // max-width: 100%;
+    }
 
     img {
       width: 60px;
@@ -18,9 +27,17 @@
 
     &__box {
       display: flex;
+
       input {
         width: 800px;
         height: 40px;
+        @include tablet {
+          width: 200px;
+        }
+
+        @include mobile {
+          width: 80px;
+        }
       }
 
       button {
@@ -42,6 +59,7 @@
     &__signin {
       width: 100px;
       height: 40px;
+      font-weight: bold;
     }
   }
 }
