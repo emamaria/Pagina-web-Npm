@@ -87,19 +87,41 @@ h6 {
 .header {
   display: flex;
   flex-direction: column;
+  background-color: gray;
+  height: 120px;
 }
 .header__search__register {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   background-color: gray;
-  height: 80px;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 50px;
 }
 .header__search__register img {
-  width: 100px;
+  width: 60px;
 }
-.header__search__register input {
+.header__search__register__box {
+  display: flex;
+}
+.header__search__register__box input {
   width: 800px;
+  height: 40px;
+}
+.header__search__register__box button {
+  width: 100px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+.header__search__register__signup {
+  width: 200px;
+  border: 1px solid black;
+  background-color: red;
+}
+.header__search__register__signin {
+  width: 100px;
 }
 
 .hero {
