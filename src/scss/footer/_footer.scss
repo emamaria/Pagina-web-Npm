@@ -1,5 +1,32 @@
 footer {
   height: 400px;
   width: 100%;
-  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  // background-color: gray;
+  justify-content: space-around;
+  align-items: center;
+  @include tablet {
+    flex-direction: column;
+    align-items: flex-start;
+    height: 700px;
+    margin-left: 20px;
+  }
+
+  img {
+    width: 70px;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+}
+
+.footer__logos {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__list__first {
+  font-weight: bold;
 }

@@ -304,7 +304,33 @@ h6 {
 footer {
   height: 400px;
   width: 100%;
-  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+    height: 700px;
+    margin-left: 20px;
+  }
+}
+footer img {
+  width: 70px;
+}
+footer li {
+  margin-bottom: 10px;
+}
+
+.footer__logos {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__list__first {
+  font-weight: bold;
 }
 
 .navigation {
