@@ -97,7 +97,6 @@ h6 {
   background-color: gray;
   flex-wrap: wrap;
   align-items: center;
-  height: 50px;
 }
 .header__search__register img {
   width: 60px;
@@ -116,12 +115,14 @@ h6 {
   font-weight: bold;
 }
 .header__search__register__signup {
-  width: 200px;
-  border: 1px solid black;
-  background-color: red;
+  border: 1px solid darkgray;
+  font-weight: bold;
+  width: 100px;
+  height: 40px;
 }
 .header__search__register__signin {
   width: 100px;
+  height: 40px;
 }
 
 .hero {
