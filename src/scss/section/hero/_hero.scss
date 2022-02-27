@@ -1,23 +1,25 @@
 .hero {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
   &__section1 {
     margin-top: 0px;
     height: 800px;
-    width: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: pink;
 
-    // @include tablet {
-    //   margin-top: 150px;
-    // }
+    @include tablet {
+      margin-bottom: 40px;
+    }
 
     // @include mobile {
     //   margin-top: 400px;
     // }
 
     &__content {
-      margin-top: 150px;
       text-align: center;
       background-color: palegreen;
       display: flex;
@@ -53,30 +55,62 @@
   }
 
   &__section2 {
-    height: 500px;
-    width: 100%;
+    height: 600px;
+    max-width: 100%;
     background-color: blue;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    text-align: center;
-    h2 {
-      width: 500px;
-      font-size: 40px;
-      margin-top: 100px;
-    }
-    p {
-      width: 200px;
-      width: 500px;
-      font-size: 20px;
-      margin-top: 20px;
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+
+      img {
+        margin-top: 20px;
+      }
+      h2 {
+        width: 500px;
+        font-size: 40px;
+        margin-top: 10px;
+        @include tablet {
+          max-width: 370px;
+        }
+      }
+
+      p {
+        width: 500px;
+        font-size: 20px;
+        margin-top: 20px;
+        @include tablet {
+          max-width: 360px;
+        }
+      }
     }
   }
 
   &__section3 {
-    height: 700px;
+    height: 350px;
     width: 100%;
     background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    h2 {
+      width: 500px;
+      font-size: 50px;
+      font-weight: bold;
+    }
+
+    article {
+      width: 480px;
+      font-size: 19px;
+    }
   }
 
   &__section4 {
