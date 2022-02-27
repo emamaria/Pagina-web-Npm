@@ -1,4 +1,29 @@
 .navigation {
   min-width: 100%;
-  background-color: gray;
+  background-color: red;
+  padding: 20px;
+  font-weight: bold;
+  font-family: "Roboto";
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+
+    &__menu {
+      margin-right: 10px;
+    }
+  }
+
+  &__text {
+    li {
+      @include tablet {
+        display: none;
+      }
+    }
+  }
 }

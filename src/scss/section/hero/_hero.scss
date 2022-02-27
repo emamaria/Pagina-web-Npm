@@ -11,14 +11,6 @@
     align-items: center;
     background-color: pink;
 
-    @include tablet {
-      margin-bottom: 40px;
-    }
-
-    // @include mobile {
-    //   margin-top: 400px;
-    // }
-
     &__content {
       text-align: center;
       background-color: palegreen;

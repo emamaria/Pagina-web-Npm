@@ -1,5 +1,18 @@
 .header {
-  background-color: gray;
-  height: 150px;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  &__search__register {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: gray;
+    height: 80px;
+    img {
+      width: 100px;
+    }
+    input {
+      width: 800px;
+    }
+  }
 }
