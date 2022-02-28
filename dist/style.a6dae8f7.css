@@ -87,7 +87,7 @@ h6 {
 .header {
   display: flex;
   flex-direction: column;
-  background-color: gray;
+  background-color: white;
   height: 120px;
 }
 @media screen and (max-width: 768px) {
@@ -97,10 +97,10 @@ h6 {
   }
 }
 .header__search__register {
+  border-top: 1px solid grey;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: gray;
   align-items: center;
 }
 @media screen and (max-width: 768px) {
@@ -117,6 +117,7 @@ h6 {
 .header__search__register__box input {
   width: 800px;
   height: 40px;
+  background-color: #d5cdcb;
 }
 @media screen and (max-width: 768px) {
   .header__search__register__box input {
@@ -135,7 +136,7 @@ h6 {
   font-weight: bold;
 }
 .header__search__register__signup {
-  border: 1px solid darkgray;
+  border: 1px solid grey;
   font-weight: bold;
   width: 100px;
   height: 40px;
@@ -158,11 +159,11 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: pink;
+  background-color: #ff006c;
+  color: white;
 }
 .hero__section1__content {
   text-align: center;
-  background-color: palegreen;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -176,7 +177,6 @@ h6 {
 .hero__section1__content__title {
   font-size: 80px;
   font-weight: bold;
-  background-color: red;
 }
 @media screen and (max-width: 768px) {
   .hero__section1__content__title {
@@ -199,7 +199,6 @@ h6 {
 }
 .hero__section1__buttons__button {
   border-radius: 40px;
-  background-color: fuchsia;
   padding: 10px;
   font-size: 20px;
   width: 200px;
@@ -208,7 +207,7 @@ h6 {
 .hero__section2 {
   height: 600px;
   max-width: 100%;
-  background-color: blue;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -247,12 +246,13 @@ h6 {
 .hero__section3 {
   height: 350px;
   width: 100%;
-  background-color: red;
+  background-color: #ff006c;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  color: white;
 }
 .hero__section3 h2 {
   width: 500px;
@@ -277,7 +277,7 @@ h6 {
 .hero__section4 {
   height: 300px;
   width: 100%;
-  background-color: green;
+  background-color: white;
   font-size: 40px;
   display: flex;
   flex-direction: column;
@@ -298,7 +298,16 @@ h6 {
 .border {
   width: 100%;
   height: 15px;
-  background-color: darkblue;
+  background-color: #ff006c;
+}
+
+.free {
+  background-color: #ffc300;
+}
+
+.pro {
+  background-color: #df2c00;
+  border: 1px solid white;
 }
 
 footer {
@@ -306,15 +315,18 @@ footer {
   width: 100%;
   display: flex;
   flex-direction: row;
+  background-color: white;
   justify-content: space-around;
   align-items: center;
+  border-top: 1px solid grey;
+  font-size: 20px;
 }
 @media screen and (max-width: 768px) {
   footer {
     flex-direction: column;
     align-items: flex-start;
     height: 700px;
-    margin-left: 20px;
+    padding-left: 20px;
   }
 }
 footer img {
@@ -335,7 +347,7 @@ footer li {
 
 .navigation {
   width: 100%;
-  background-color: red;
+  background-color: white;
   padding: 20px;
   font-weight: bold;
   font-family: "Roboto";

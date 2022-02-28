@@ -1,6 +1,8 @@
+@import "../base/variables";
+
 .navigation {
   width: 100%;
-  background-color: red;
+  background-color: $white;
   padding: 20px;
   font-weight: bold;
   font-family: "Roboto";

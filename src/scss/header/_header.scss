@@ -1,7 +1,8 @@
+@import "../base/variables";
 .header {
   display: flex;
   flex-direction: column;
-  background-color: gray;
+  background-color: $white;
   height: 120px;
 
   @include tablet {
@@ -10,15 +11,15 @@
   }
   //
   &__search__register {
+    border-top: 1px solid $gray;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: gray;
+
     align-items: center;
 
     @include tablet {
       flex-wrap: wrap;
-      // max-width: 100%;
     }
 
     img {
@@ -31,6 +32,7 @@
       input {
         width: 800px;
         height: 40px;
+        background-color: $lightGrey;
         @include tablet {
           width: 200px;
         }
@@ -42,14 +44,14 @@
 
       button {
         width: 100px;
-        background-color: black;
-        color: white;
+        background-color: $black;
+        color: $white;
         font-weight: bold;
       }
     }
 
     &__signup {
-      border: 1px solid darkgray;
+      border: 1px solid $gray;
 
       font-weight: bold;
       width: 100px;
